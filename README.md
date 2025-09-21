@@ -71,17 +71,3 @@ For example: install all themes
 ```sh
 ./install.sh -t all -s all
 ```
-
-## Screenshots
-
-#### GNOME Shell
-![1](https://i.imgur.com/xhmv9VZ.png)
-![2](https://i.imgur.com/jOTgUQS.png)
-![3](https://i.imgur.com/JHxwUSu.png)
-![4](https://i.imgur.com/YFRJf9B.png)
-![5](https://i.imgur.com/yAGGnQU.png)
-
-## Icon 
-Vimix icon theme is based on Paper-Icon-Theme: https://github.com/snwh/paper-icon-theme
-
-#### You can download here: https://github.com/vinceliuice/vimix-icon-theme
