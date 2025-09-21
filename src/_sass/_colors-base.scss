@@ -2,14 +2,14 @@
 @import 'tweaks-temp';
 
 // Theme colors
-$theme_blue:       #4285F4;
-$theme_teal:       #2EB398;
-$theme_red:        #F0544C;
-$theme_purple:     #AB47BC;
-$theme_green:      #86BE43;
-$theme_grey:       #666666;
-$theme_base:       if($variant == 'light', #FFFFFF, #333333);
-$theme_background: if($variant == 'light', #F2F2F2, #282828);
+$theme_blue:      #2D4F67; // #4285F4;
+$theme_teal:      #7AA89F; // #2EB398;
+$theme_red:       #E46876; // #F0544C;
+$theme_purple:    #957FB8; // #AB47BC;
+$theme_green:     #98BB6C; // #86BE43;
+$theme_grey:      #727169; // #666666;
+$theme_base:      if($variant == 'light', #FFFFFF, #1F1F28); // if($variant == 'light', #FFFFFF, #333333);
+$theme_background:if($variant == 'light', #DCD7BA, #16161D); // if($variant == 'light', #F2F2F2, #282828);
 
 // Base functions
 @function gtkalpha($c,$a) {
