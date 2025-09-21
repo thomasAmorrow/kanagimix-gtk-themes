@@ -1,7 +1,8 @@
-<img src="https://github.com/vinceliuice/vimix-gtk-themes/blob/images/vimix-logo.svg" alt="Logo" align="right" /> Vimix-gtk-theme
-======
 
-Vimix is a flat Material Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+======
+Kanagimix is Kanagawa-color version of Vimix, a theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+
+Forked from Vimix: github.com/vinceliuice/vimix-gtk-themes
 
 This theme is based on materia gtk theme of nana-4. Thanks nana-4 sincerely for his great job!
 
