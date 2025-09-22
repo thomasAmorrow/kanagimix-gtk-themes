@@ -278,7 +278,7 @@ StScrollView StScrollBar {
 StScrollBar StBin#trough {
   margin: 0;
   border-radius: 6px;
-  background-color: #1f202a;
+  background-color: #191818;
 }
 
 StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
@@ -406,7 +406,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .menu {
   padding: 0;
-  background-color: #1b1c25;
+  background-color: #161615;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -499,8 +499,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   -arrow-box-shadow: none;
   margin: 0.4em 0.5em 0.5em;
   border-radius: 2px;
-  border-top: 1px solid #1f202a;
-  background-color: #1b1c25;
+  border-top: 1px solid #191818;
+  background-color: #161615;
   box-shadow: 0 4.5px 5.5px rgba(0, 0, 0, 0.38);
 }
 
@@ -1308,7 +1308,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border: none;
   border-radius: 6px;
   color: white;
-  background-color: #1f202a;
+  background-color: #191818;
   box-shadow: 0 10px 14px rgba(0, 0, 0, 0.44);
 }
 
@@ -2394,7 +2394,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding: 0;
   border: 0 none transparent;
   -slider-height: 4px;
-  -slider-background-color: #1a3b51;
+  -slider-background-color: #163644;
   -slider-border-color: transparent;
   -slider-active-background-color: #18b8ff;
   -slider-active-border-color: transparent;
@@ -2805,7 +2805,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding-right: 0;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0;
-  background-color: #1f202a;
+  background-color: #191818;
 }
 
 .about-scrollBox-innerBox {
@@ -2922,7 +2922,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .slingshot .button {
   padding: 4px;
   border-radius: 2px;
-  border-color: #3a3b44;
+  border-color: #353434;
   background-color: rgba(255, 255, 255, 0.05);
   box-shadow: none;
 }
@@ -2971,7 +2971,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-color: rgba(255, 255, 255, 0.05);
   color: rgba(255, 255, 255, 0.7);
   caret-color: rgba(255, 255, 255, 0.7);
-  box-shadow: inset 0 0 0 1px #3a3b44;
+  box-shadow: inset 0 0 0 1px #353434;
 }
 
 .slingshot .entry:ltr {
@@ -2994,7 +2994,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-color: transparent;
   background-color: rgba(255, 255, 255, 0.05);
   color: rgba(255, 255, 255, 0.45);
-  box-shadow: inset 0 0 0 1px #3a3b44;
+  box-shadow: inset 0 0 0 1px #353434;
 }
 
 .slingshot > StBoxLayout > StBoxLayout {

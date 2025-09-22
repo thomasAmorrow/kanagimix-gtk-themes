@@ -113,7 +113,7 @@ stage {
 .message .message-header .background-app-item .message-close-button, .message .message-header .message-expand-button,
 .message .message-header .message-close-button, .message-notification-group .message-collapse-button {
   color: white;
-  background-color: #1f202a;
+  background-color: #191818;
   box-shadow: none !important;
 }
 
@@ -141,7 +141,7 @@ stage {
 .hotplug-notification-item:insensitive, .icon-button:insensitive, .message .message-header .message-expand-button:insensitive,
 .message .message-header .message-close-button:insensitive, .message-notification-group .message-collapse-button:insensitive {
   color: rgba(255, 255, 255, 0.35);
-  background-color: #1f202a;
+  background-color: #191818;
   box-shadow: none !important;
 }
 
@@ -488,7 +488,7 @@ StEntry StLabel.hint-text {
 
 /* On-screen Keyboard */
 #keyboard {
-  background-color: #0c0d10;
+  background-color: #060706;
   box-shadow: none;
 }
 
@@ -515,38 +515,38 @@ StEntry StLabel.hint-text {
   border-radius: 5px;
   border: none;
   color: rgba(255, 255, 255, 0.7);
-  background-color: #232430;
+  background-color: #1e1d1d;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .keyboard-key:focus, .keyboard-key:hover {
   color: white;
-  background-color: #393b4d;
+  background-color: #383636;
 }
 
 .keyboard-key:checked, .keyboard-key:active {
   color: white;
-  background-color: #44465c;
+  background-color: #454242;
 }
 
 .keyboard-key:grayed {
-  background-color: #17181f;
+  background-color: #131412;
   color: rgba(255, 255, 255, 0.7);
 }
 
 .keyboard-key.default-key {
-  background-color: #131319;
+  background-color: #0e0f0d;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
 }
 
 .keyboard-key.default-key:focus, .keyboard-key.default-key:hover {
   color: white;
-  background-color: #282a36;
+  background-color: #272925;
 }
 
 .keyboard-key.default-key:checked, .keyboard-key.default-key:active {
   color: white;
-  background-color: #383a4b;
+  background-color: #393c36;
 }
 
 .keyboard-key.enter-key {
@@ -576,7 +576,7 @@ StEntry StLabel.hint-text {
 .keyboard-subkeys {
   color: inherit;
   -arrow-border-radius: 3px;
-  -arrow-background-color: #0c0d10;
+  -arrow-background-color: #060706;
   -arrow-border-width: 0;
   -arrow-border-color: transparent;
   -arrow-base: 20px;
@@ -691,7 +691,7 @@ StEntry StLabel.hint-text {
 .login-dialog .modal-dialog-button:default,
 .unlock-dialog .modal-dialog-button:default {
   color: white;
-  background-color: #1f202a;
+  background-color: #191818;
   box-shadow: none !important;
 }
 
@@ -713,7 +713,7 @@ StEntry StLabel.hint-text {
 .login-dialog .modal-dialog-button:default:insensitive,
 .unlock-dialog .modal-dialog-button:default:insensitive {
   color: rgba(255, 255, 255, 0.35);
-  background-color: #1f202a;
+  background-color: #191818;
   box-shadow: none !important;
 }
 
@@ -897,7 +897,7 @@ StEntry StLabel.hint-text {
 
 /* Looking Glass */
 #LookingGlassDialog {
-  background-color: #1f202a;
+  background-color: #191818;
   spacing: 4px;
   padding: 0;
   border: none;
@@ -910,7 +910,7 @@ StEntry StLabel.hint-text {
   padding: 0 8px;
   border: none;
   border-radius: 0;
-  background-color: #17181f;
+  background-color: #131412;
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.12);
 }
 
@@ -1015,7 +1015,7 @@ StEntry StLabel.hint-text {
 .lg-extension {
   border: none;
   border-radius: 2px;
-  background-color: #17181f;
+  background-color: #131412;
   padding: 12px;
 }
 
@@ -1029,7 +1029,7 @@ StEntry StLabel.hint-text {
 
 #LookingGlassPropertyInspector {
   color: rgba(255, 255, 255, 0.7);
-  background: #1f202a;
+  background: #191818;
   border: none;
   border-radius: 2px;
   padding: 6px;
@@ -1461,7 +1461,7 @@ StEntry StLabel.hint-text {
 
 .popup-menu .popup-menu-content {
   padding: 6px 0;
-  background-color: #232430 !important;
+  background-color: #1e1d1d !important;
   border-radius: 4.5px;
   border: none;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
@@ -1642,11 +1642,11 @@ StEntry StLabel.hint-text {
 }
 
 #unlockDialogNotifications StButton#vhandle, #unlockDialogNotifications StButton#hhandle {
-  background-color: rgba(23, 24, 31, 0.3);
+  background-color: rgba(19, 20, 18, 0.3);
 }
 
 #unlockDialogNotifications StButton#vhandle:hover, #unlockDialogNotifications StButton#vhandle:focus, #unlockDialogNotifications StButton#hhandle:hover, #unlockDialogNotifications StButton#hhandle:focus {
-  background-color: rgba(23, 24, 31, 0.5);
+  background-color: rgba(19, 20, 18, 0.5);
 }
 
 #unlockDialogNotifications StButton#vhandle:active, #unlockDialogNotifications StButton#hhandle:active {
@@ -2658,7 +2658,7 @@ StWidget.focused .app-grid-running-dot {
 
 /* Modal Dialogs */
 .modal-dialog, .candidate-popup-content {
-  background-color: #232430;
+  background-color: #1e1d1d;
   border-radius: 6px;
   border: none;
   box-shadow: 3px 3px 8px -3px rgba(0, 0, 0, 0.35);
@@ -3016,7 +3016,7 @@ StWidget.focused .app-grid-running-dot {
   margin: 3px;
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.7);
-  background-color: #2e303f;
+  background-color: #2b2929;
   border-radius: 3px;
   border: none;
   box-shadow: none;
@@ -3024,23 +3024,23 @@ StWidget.focused .app-grid-running-dot {
 
 .message:hover, .message:focus {
   color: white;
-  background-color: #393b4d;
+  background-color: #383636;
   box-shadow: none;
 }
 
 .message:active {
   color: white;
-  background-color: #44465c;
+  background-color: #454242;
   box-shadow: none;
 }
 
 .message:second-in-stack {
-  background-color: #353647;
+  background-color: #333131;
   box-shadow: none;
 }
 
 .message:lower-in-stack {
-  background-color: #3b3d50;
+  background-color: #3b3838;
   box-shadow: none;
   border: none;
 }
@@ -3221,7 +3221,7 @@ StWidget.focused .app-grid-running-dot {
   width: 34em;
   margin: 12px 8px 8px;
   color: rgba(255, 255, 255, 0.7);
-  background-color: #232430;
+  background-color: #1e1d1d;
   text-shadow: none;
   border-radius: 3px;
   border: none;
@@ -3230,7 +3230,7 @@ StWidget.focused .app-grid-running-dot {
 
 .notification-banner:hover, .notification-banner:active, .notification-banner:focus {
   color: white;
-  background-color: #232430;
+  background-color: #1e1d1d;
 }
 
 .notification-buttons-bin {
@@ -4039,7 +4039,7 @@ StWidget.focused .app-grid-running-dot {
 }
 
 .quick-toggle-menu {
-  background-color: #232430 !important;
+  background-color: #1e1d1d !important;
   color: white !important;
   border-radius: 6px !important;
   padding: 12px;
@@ -4133,7 +4133,7 @@ StWidget.focused .app-grid-running-dot {
 
 .quick-settings-system-item .power-item:insensitive {
   color: white;
-  background-color: #1f202a;
+  background-color: #191818;
   box-shadow: none !important;
   background-color: transparent;
 }
